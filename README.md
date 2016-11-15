@@ -9,6 +9,7 @@ SimpleCrud - A simple CRUD UI library for Java Spring Applications
   `
       @Bean(name = "cityCrudEntity")
       public CrudEntity cityCrudEntity(CityRepository cityRepository){
+      
           return newCrudEntity(City.class)
                   .jpaCrudRepository(cityRepository, Long.class)
                   .model(CrudModelBuilder.jpaCrudModel()
