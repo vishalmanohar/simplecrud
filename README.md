@@ -1,10 +1,11 @@
 SimpleCrud - A simple CRUD UI library for Java Spring Applications
 ================================================================
 
-* Import SimpleCrud Configuration
+* Import SimpleCrud Configuration  
   Example `@Import(SimpleCrudConfiguration.class)`
 
 * Configure Spring beans for entities that need to be CRUDed over a UI
+
   `
       @Bean(name = "cityCrudEntity")
       public CrudEntity cityCrudEntity(CityRepository cityRepository){
@@ -17,5 +18,5 @@ SimpleCrud - A simple CRUD UI library for Java Spring Applications
       }
    `
 
-* Go to {{path}}/crud/City/list
+* Go to `{{path}}/crud/City/list`
   Thats it.
