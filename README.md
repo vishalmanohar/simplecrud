@@ -20,3 +20,17 @@ SimpleCrud - A simple CRUD UI library for Java Spring Applications
 
 * Go to `{{path}}/crud/City/list`
   Thats it.
+
+### Sample project
+[simplecrud-sample](https://github.com/vishalmanohar/simplecrud-sample)
+
+
+### Screenshots
+
+* Listing page http://localhost:8080/crud/City/list
+
+  ![Screenshot](https://github.com/vishalmanohar/simplecrud-sample/blob/master/screenshots/simple-crud-list.png?raw=true)
+  
+* Add or Edit UI
+
+  ![Screenshot](https://github.com/vishalmanohar/simplecrud-sample/blob/master/screenshots/simplecrud-edit.png?raw=true)
